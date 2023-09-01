@@ -38,7 +38,7 @@ private:
 
 int main() {
     io_context context;
-    IRCBot bot(context, "irc.freenode.org", "##bot_channel");
+    IRCBot bot(context, "irc.freenode.net", "##bot_channel");
     bot.connect();
     std::cout << " Bot connected to IRC server." << std::endl;
     std::cout << " Sending message to channel." << std::endl;
